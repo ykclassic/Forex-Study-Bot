@@ -1,0 +1,132 @@
+{
+  "modules": [
+    {
+      "id": "crt_w1_mon",
+      "delivery_day": "Monday",
+      "title": "🌙 CRT & SMC Week 1: The Core Mechanics of Candle Range Theory (CRT)",
+      "description": "Welcome to Track 3. Tonight we strip away generic charting patterns and dissect the internal anatomy of a single candle range to understand institutional timing.",
+      "fields": [
+        {
+          "name": "📐 The Power of Three (AMD)",
+          "value": "Every major instructional candle or structural session undergoes three distinct phase sequences:\n1. **Accumulation:** Price tightly consolidates, building up orders.\n2. **Manipulation:** Price aggressively sweeps liquidity past one side of the consolidation, trapping retail breakouts.\n3. **Distribution:** Price violently reverses and expands in the true intended direction."
+        },
+        {
+          "name": "📏 Fractional Range Divisions",
+          "value": "An established candle range is divided mathematically. The absolute center point of the body is the **Equilibrium (0.5)**. The upper 25% represents the **Premium Zone** (ideal for shorting), and the lower 25% represents the **Discount Zone** (ideal for buying)."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1000"
+    },
+    {
+      "id": "crt_w1_wed",
+      "delivery_day": "Wednesday",
+      "title": "☀️ CRT & SMC Week 1 Mid-Week Drill: Mapping Daily AMD Ranges",
+      "description": "Today we take the AMD theory and map it live against historical Daily candles to find recurring retail traps.",
+      "fields": [
+        {
+          "name": "🛠️ The Midnight Midnight Range Setup",
+          "value": "Open TradingView on **EUR/USD** or **GBP/USD**. Mark a vertical line at 00:00 EST (New York Midnight). The price action from midnight to London Open (03:00 EST) is your **Accumulation Range**. Watch how the London open frequently manipulates below this range before distributing higher."
+        },
+        {
+          "name": "📊 Practical Execution Log",
+          "value": "Identify the last 5 daily candles. Highlight the lower wick of those candles. Note how often that wick was printed during the London session open window. Document your findings cleanly."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1000"
+    },
+    {
+      "id": "crt_w2_mon",
+      "delivery_day": "Monday",
+      "title": "🌙 CRT & SMC Week 2: Advanced Market Structure Shifts (MSS) vs. BOS",
+      "description": "Tonight we look at the exact difference between a trend continuation and an institutional trend reversal using clean SMC logic.",
+      "fields": [
+        {
+          "name": "🔄 BOS vs. MSS Explained",
+          "value": "• **Break of Structure (BOS):** Price breaks past a swing high/low in the direction of the *current* trend, validating continuation.\n• **Market Structure Shift (MSS):** Price aggressively closes past the final structural swing low/high that created the peak, signaling an official trend *reversal*."
+        },
+        {
+          "name": "💥 Displacement Validation",
+          "value": "A true MSS requires **Displacement**—a massive, high-volume candle that cuts cleanly through the structural level with real institutional power. Tiny, slow candles or simple wick pierces are fakeouts."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    },
+    {
+      "id": "crt_w2_wed",
+      "delivery_day": "Wednesday",
+      "title": "☀️ CRT & SMC Week 2 Mid-Week Drill: Refining Reversal Signatures",
+      "description": "Today we isolate structural shifts on the lower execution timeframes inside macro higher-timeframe zones.",
+      "fields": [
+        {
+          "name": "🤖 Binary Confirmation Ruleset",
+          "value": "1. Price reaches a major 4-Hour structural Supply Zone.\n2. Drop down to the 15-Minute chart.\n3. Wait for an explicit 15M Market Structure Shift with high candle displacement. This confirms institutional sponsorship."
+        },
+        {
+          "name": "📐 Mathematical Balance Guardrail",
+          "value": "Measure the displacement move using a Fibonacci tool. The displacement must create an internal **Fair Value Gap (FVG)** located strictly above the Equilibrium (0.5) line for a high-probability sell entry."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1642390061910-0f7128bef160?q=80&w=1000"
+    },
+    {
+      "id": "crt_w3_mon",
+      "delivery_day": "Monday",
+      "title": "🌙 CRT & SMC Week 3: Internal Liquidity Mechanics & Inducement",
+      "description": "To be a profitable trader, you must identify where liquidity sits. If you cannot find the liquidity in the market, your stop-loss *is* the liquidity.",
+      "fields": [
+        {
+          "name": "🧲 Inducement (IDM) Demystified",
+          "value": "Inducement is a minor internal structure high/low designed to trap eager retail traders into buying or selling too early. Smart Money deliberately prints these traps right before hitting the actual institutional Order Block."
+        },
+        {
+          "name": "🛒 Liquidity Pool Classifications",
+          "value": "• **BSL (Buy-Side Liquidity):** Clustered above clean double tops and swing highs.\n• **SSL (Sell-Side Liquidity):** Clustered below clean double bottoms and swing lows."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1000"
+    },
+    {
+      "id": "crt_w3_wed",
+      "delivery_day": "Wednesday",
+      "title": "☀️ CRT & SMC Week 3 Mid-Week Drill: Mapping Sweeps and Targets",
+      "description": "Today we practice looking at the chart purely as an internal game of hunting and capturing liquidity blocks.",
+      "fields": [
+        {
+          "name": "🤖 Mechanical Execution Blueprint",
+          "value": "1. Identify an obvious pool of Sell-Side Liquidity (SSL) on the 1-Hour chart.\n2. Monitor price as it aggressively sweeps past that low.\n3. Look for a 5-Minute structural shift immediately following the sweep to confirm the trap is set."
+        },
+        {
+          "name": "📝 Database Logging Requirement",
+          "value": "Log the time duration between the initial sweep and the corresponding reversal pattern. Push this baseline entry criteria into your tracking files to monitor setup efficiency."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000"
+    },
+    {
+      "id": "crt_w4_mon",
+      "delivery_day": "Monday",
+      "title": "🌙 CRT & SMC Week 4: The Unified Confluence Model",
+      "description": "Tonight we stitch Candle Range Theory, Market Structure Shifts, and Liquidity Pools into a single, cohesive mechanical execution strategy.",
+      "fields": [
+        {
+          "name": "⚔️ The 4-Step Execution Blueprint",
+          "value": "1. **Time & Filter:** Wait for the New York Midnight Accumulation range to establish.\n2. **The Sweep:** Watch the London Session manipulate outside the range to hunt internal liquidity pools.\n3. **The Reversal Shift:** Wait for a sharp Market Structure Shift with an open Fair Value Gap on the lower timeframe.\n4. **The Safe Entry:** Execute your position strictly on the mitigation/retest of that newly formed gap."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?q=80&w=1000"
+    },
+    {
+      "id": "crt_w4_wed",
+      "delivery_day": "Wednesday",
+      "title": "☀️ CRT & SMC Week 4 Mid-Week Drill: Building the Automated Blueprint",
+      "description": "Our final module. We finalize our technical parameters and ensure our tracking systems are ready for forward-testing.",
+      "fields": [
+        {
+          "name": "🔧 Database State Optimization",
+          "value": "Ensure your signal recording setups in `signals.db` include separate tracking flags for `Midnight_Accumulation_High`, `London_Sweep_True`, and `MSS_Displacement_Pips`. This structural data formatting sets up flawless parameters for long-term quantitative system queries."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    }
+  ]
+}
