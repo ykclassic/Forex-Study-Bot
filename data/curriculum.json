@@ -1,0 +1,172 @@
+{
+  "modules": [
+    {
+      "id": "w1_tue_intro",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 1, Night 1: The Foundations of Forex & Exchange Mechanics",
+      "description": "Welcome to your first late-night Forex briefing. Let's strip away the noise and look at how global currency exchange actually works.",
+      "fields": [
+        {
+          "name": "💵 Understanding Currency Pairs",
+          "value": "In Forex, currencies are always traded in pairs (e.g., **EUR/USD**). The first currency is the **Base** and the second is the **Quote**. If EUR/USD is trading at `1.0850`, it means 1 Euro costs exactly 1.0850 US Dollars. You buy the pair if you think the Base will strengthen against the Quote, and sell if you think it will weaken."
+        },
+        {
+          "name": "⚡ The Major Players",
+          "value": "You aren't trading against individuals; you are trading in a market dominated by Central Banks (like the Federal Reserve), commercial mega-banks, and institutional funds. Your goal is simply to ride the waves they create."
+        },
+        {
+          "name": "📊 Weeknight Action Item",
+          "value": "Go to BabyPips 'School of Pipsology' and complete the 'Pre-School' modules on your phone before sleep."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1000"
+    },
+    {
+      "id": "w1_sat_structure",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 1 Weekend Deep Dive: Drawing Clean Market Structure",
+      "description": "The markets are closed, which means the charts are static and perfect for objective data analysis. Today, we map raw price action.",
+      "fields": [
+        {
+          "name": "📉 The Big Three Market States",
+          "value": "1. **Uptrend:** Price makes consecutive **Higher Highs (HH)** and **Higher Lows (HL)**.\n2. **Downtrend:** Price makes consecutive **Lower Highs (LH)** and **Lower Lows (LL)**.\n3. **Ranging:** Price consolidates sideways, trapped between a clear ceiling and floor."
+        },
+        {
+          "name": "🛠️ TradingView Configuration",
+          "value": "Open your free TradingView workspace. Toggle **Dark Mode** on, right-click the canvas to remove background gridlines, and pull up the **EUR/USD** asset on the **4-Hour (4H)** timeframe."
+        },
+        {
+          "name": "🖋️ Execution Practice",
+          "value": "Use the **Rectangle Tool** to draw horizontal zones covering the last 3 major swing highs (peaks) and swing lows (valleys). Do not look at any indicators—rely entirely on raw candles."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1000"
+    },
+    {
+      "id": "w2_tue_pips",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 2, Night 1: Quantifying Price – Pips, Lots, and Leverage",
+      "description": "Tonight we transition from concepts to raw numbers. To protect capital, you must understand exactly how profit and loss are calculated.",
+      "fields": [
+        {
+          "name": "📏 What is a Pip?",
+          "value": "A **Pip** (Percentage in Point) is the unit of measurement for price movement. For most pairs, it is the **4th decimal place** (e.g., if EUR/USD moves from 1.0850 to 1.0851, it moved 1 Pip). For Japanese Yen (JPY) pairs, it is the **2nd decimal place**."
+        },
+        {
+          "name": "📦 Lot Sizes Demystified",
+          "value": "Forex is traded in standardized volumes called **Lots**:\n• **Standard Lot (1.0):** 100,000 units of the base currency (~$10 per pip).\n• **Mini Lot (0.10):** 10,000 units (~$1 per pip).\n• **Micro Lot (0.01):** 1,000 units (~$0.10 per pip)."
+        },
+        {
+          "name": "🚨 The Danger of Leverage",
+          "value": "Leverage allows you to control large positions with small capital. While it amplifies gains, it can instantly wipe out your account if misused. We counter this strictly through proper position sizing."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1000"
+    },
+    {
+      "id": "w2_sat_snr",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 2 Weekend Deep Dive: Mastering Support & Resistance Zones",
+      "description": "Support and Resistance are the core pillars of technical analysis. Today, you will learn to locate institutional price floors and ceilings.",
+      "fields": [
+        {
+          "name": "🧱 Support vs. Resistance",
+          "value": "• **Support:** A price level where buying interest is strong enough to overcome selling pressure, causing price to bounce upward.\n• **Resistance:** A price level where selling interest overcomes buying pressure, pushing price back down."
+        },
+        {
+          "name": "🔄 Role Reversal (The Flip Zone)",
+          "value": "When a major resistance level is broken cleanly by an aggressive price move, it frequently turns into a major **Support** level when price returns to retest it from above."
+        },
+        {
+          "name": "📊 Practical Charting Assignment",
+          "value": "Pull up **GBP/USD** and **EUR/USD** on the Daily (1D) and 4-Hour (4H) charts. Mark the major horizontal zones where price reversed at least twice. Notice how clean the market structure responds to these historical key lines."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1642390061910-0f7128bef160?q=80&w=1000"
+    },
+    {
+      "id": "w3_tue_fundamentals",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 3, Night 1: Fundamental Analysis & High-Impact Economic Data",
+      "description": "Charts tell you *where* price is moving, but fundamentals tell you *why*. Tonight we look at macroeconomic catalysts.",
+      "fields": [
+        {
+          "name": "🏦 Central Banks & Interest Rates",
+          "value": "The supreme driver of currency value is interest rates. Higher interest rates attract foreign investment, increasing demand for that currency. Lower rates typically depress currency value."
+        },
+        {
+          "name": "💣 The Big Three Market Movers",
+          "value": "1. **Interest Rate Decisions:** Direct statements from the Fed, ECB, or BoE.\n2. **CPI (Consumer Price Index):** The main metric for monitoring inflation.\n3. **NFP (Non-Farm Payrolls):** US employment statistics released on the first Friday of every month, triggering extreme volatility."
+        },
+        {
+          "name": "📅 Action Item",
+          "value": "Bookmark **ForexFactory.com**. Look at the economic calendar and identify the upcoming 'Red Folder' (high impact) events scheduled for this week."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1000"
+    },
+    {
+      "id": "w3_sat_risk",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 3 Weekend Deep Dive: The Mathematics of Professional Risk Management",
+      "description": "This is the most critical session of your trading education. This math is what stops you from ever destroying a trading account.",
+      "fields": [
+        {
+          "name": "🛡️ The 1% Rule",
+          "value": "Never risk more than **1% to 2%** of your total balance on a single trade. If you have a $5,000 account, your maximum loss per trade must be mathematically capped at $50."
+        },
+        {
+          "name": "⚖️ Risk-to-Reward Ratio (R:R)",
+          "value": "Always aim for a minimum of a **1:2 R:R**. This means if you risk $50 (Stop-Loss), your target profit (Take-Profit) must be at least $100. With a 1:2 ratio, you can lose 60% of your trades and still remain net profitable."
+        },
+        {
+          "name": "🛠️ Tool Mastery",
+          "value": "Select the **Long Position** or **Short Position** tool in TradingView. Place it on your chart. Adjust the parameters to fit your risk tolerances. It will calculate your exact required lot sizing automatically."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000"
+    },
+    {
+      "id": "w4_tue_candlesticks",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 4, Night 1: Conformation Mechanics – Higher-Probability Candlestick Patterns",
+      "description": "Tonight we study candle formations that signal institutional buying or selling pressure at key structural zones.",
+      "fields": [
+        {
+          "name": "🕯️ The Pin Bar (Rejection Candle)",
+          "value": "A candle with a long wick and a tiny body. A long bottom wick shows that sellers tried to push price down, but buyers surged in and rejected lower prices, indicating an imminent upward reversal."
+        },
+        {
+          "name": "💥 The Engulfing Pattern",
+          "value": "A two-candle pattern where the body of the second candle completely swallows or 'engulfs' the body of the previous candle. This represents an aggressive momentum shift in the market."
+        },
+        {
+          "name": "⚠️ Crucial Context Guardrail",
+          "value": "A candlestick pattern mean nothing in isolation. A bullish pin bar floating in the middle of a chart is noise; a bullish pin bar sitting directly on a major **4-Hour Support Zone** is an actionable trading signal."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?q=80&w=1000"
+    },
+    {
+      "id": "w4_sat_demo",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 4 Weekend Deep Dive: Deploying Your Demo Architecture",
+      "description": "Your first month of theory is complete. Today, we go live in a simulation environment using real market data with zero financial risk.",
+      "fields": [
+        {
+          "name": "🕹️ Setting Up Your Sandbox",
+          "value": "Open a free Demo Account with an established broker or use TradingView's built-in 'Paper Trading' feature. Configure your starting balance to match what you can realistically invest later (e.g., if you plan to start with $1,000 real money, set your demo account to $1,000, not $100,000)."
+        },
+        {
+          "name": "📜 Developing Your Trading Journal",
+          "value": "Create an Excel file, Notion database, or markdown sheet to log every trade. You must document:\n1. Pair and Direction (Buy/Sell)\n2. Confluence (Why did you take it? Support + Pin Bar?)\n3. Planned R:R Ratio\n4. Psychological state upon trade entry."
+        },
+        {
+          "name": "🏁 The Month 2 Mission",
+          "value": "Starting next week, your goal is to execute exactly 5 trades per week following these rules. Profit doesn't matter yet; your only success metric is absolute rule adherence."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    }
+  ]
+}
