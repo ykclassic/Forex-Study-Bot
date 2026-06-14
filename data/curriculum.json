@@ -129,7 +129,7 @@
     {
       "id": "w4_tue_candlesticks",
       "delivery_day": "Tuesday",
-      "title": "🌙 Week 4, Night 1: Conformation Mechanics – Higher-Probability Candlestick Patterns",
+      "title": "🌙 Week 4, Night 1: Confirmation Mechanics – Higher-Probability Candlestick Patterns",
       "description": "Tonight we study candle formations that signal institutional buying or selling pressure at key structural zones.",
       "fields": [
         {
@@ -142,7 +142,7 @@
         },
         {
           "name": "⚠️ Crucial Context Guardrail",
-          "value": "A candlestick pattern mean nothing in isolation. A bullish pin bar floating in the middle of a chart is noise; a bullish pin bar sitting directly on a major **4-Hour Support Zone** is an actionable trading signal."
+          "value": "A candlestick pattern means nothing in isolation. A bullish pin bar floating in the middle of a chart is noise; a bullish pin bar sitting directly on a major **4-Hour Support Zone** is an actionable trading signal."
         }
       ],
       "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?q=80&w=1000"
@@ -167,6 +167,598 @@
         }
       ],
       "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    },
+    {
+      "id": "w5_tue_indicators",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 5, Night 1: Dynamic Structural Filters – EMAs and RSI",
+      "description": "Welcome to Month 2. Tonight we add technical tools to our workspace, but with an institutional mindset: indicators filter data, they don't predict it.",
+      "fields": [
+        {
+          "name": "📈 Exponential Moving Averages (EMA)",
+          "value": "Load the **50 EMA** and **200 EMA** on your chart. When price is cleanly above the 200 EMA, look strictly for buy setups. When below, look strictly for sells. The EMAs act as a dynamic trend filter."
+        },
+        {
+          "name": "📊 Relative Strength Index (RSI)",
+          "value": "The RSI scales from 0 to 100. Instead of using it blindly for 'overbought/oversold' boundaries, use it to detect **Divergence**: when price makes a higher high but the RSI makes a lower high, a trend reversal is loading."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1618042164219-62c820f10723?q=80&w=1000"
+    },
+    {
+      "id": "w5_sat_routine",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 5 Weekend Deep Dive: The Live-Data Demo Execution Routine",
+      "description": "It's time to build your live mechanical routine. Today we establish exactly how to manage an active trading week while working your 9-5.",
+      "fields": [
+        {
+          "name": "⏰ The 9-5 Window Strategy",
+          "value": "Never look at charts during intense work hours. Instead, perform analysis at night or early morning, set **TradingView alerts** at key zones, and only execute via mobile if your predefined price alert triggers."
+        },
+        {
+          "name": "📝 The 5-Trade Rule",
+          "value": "Your cap is exactly 5 high-quality trades per week. Quality over quantity. If you hit 5 trades by Thursday, you are done for the week. This builds professional patience."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1000"
+    },
+    {
+      "id": "w6_tue_friction",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 6, Night 1: Market Friction – Spreads, Commissions, and Slippage",
+      "description": "Tonight we look at hidden transaction costs that erode profitability if unaccounted for in your risk architecture.",
+      "fields": [
+        {
+          "name": "↔️ The Spread Explained",
+          "value": "The spread is the gap between the **Bid** (selling price) and the **Ask** (buying price). Highly liquid pairs like EUR/USD have tiny spreads, while minor/exotic pairs have wider spreads that require price to move significantly further just to break even."
+        },
+        {
+          "name": "📉 Slippage & Commissions",
+          "value": "Commissions are flat fees charged by the broker per lot traded. **Slippage** occurs during high-volatility events when your order fills at a slightly worse price than requested due to extreme market speed."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?q=80&w=1000"
+    },
+    {
+      "id": "w6_sat_friction_chart",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 6 Weekend Deep Dive: Incorporating Friction into Risk Calculators",
+      "description": "Today we modify our manual order entry steps to mathematically offset broker costs before placing any trades.",
+      "fields": [
+        {
+          "name": "📐 Stop-Loss Padding Mechanics",
+          "value": "If your structural analysis calls for a 15-pip stop loss, you must pad it by adding the pair's average spread (e.g., 1.2 pips). Your actual execution parameter becomes 16.2 pips to prevent accidental premature stop-outs."
+        },
+        {
+          "name": "🛠️ Broker Sandbox Audit",
+          "value": "Open your demo account trading console. Compare the Bid/Ask lines during volatile sessions vs quiet sessions. Note down how spread widths change dynamically."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000"
+    },
+    {
+      "id": "w7_tue_psychology",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 7, Night 1: Behavioral Architecture – Preventing Revenge Trading",
+      "description": "Trading is 20% strategy and 80% psychology. Tonight we look at the neurological triggers that cause retail traders to blow up accounts.",
+      "fields": [
+        {
+          "name": "🧠 The Revenge Trading Trap",
+          "value": "When you take a financial loss, your brain experiences a threat response. The natural impulse is to instantly jump back into the market with a larger size to 'make it back.' This leads to catastrophic compounding losses."
+        },
+        {
+          "name": "🛡️ The Daily Drawdown Cap",
+          "value": "Establish a hard rule: If you lose **2 trades in a single day**, your terminal is locked. No exceptions. Step completely away from the screen until the next session."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1000"
+    },
+    {
+      "id": "w7_sat_psychology_log",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 7 Weekend Deep Dive: Cognitive Logging and Rules Auditing",
+      "description": "Today we build psychological metrics directly into your journal architecture to isolate human bias from system performance.",
+      "fields": [
+        {
+          "name": "📊 Adding the Mindset Field",
+          "value": "Update your trading journal columns to include a **Mindset Rating (1-5)**. Log whether you felt calm, anxious, greedy, or rushed when hitting execute. In your future audits, we will check if anxious trades map directly to losses."
+        },
+        {
+          "name": "🖋️ Execution Review",
+          "value": "Review your last two weeks of demo trades. Did you manually close a trade early out of fear before it could hit your Take-Profit target? Document the mathematical cost of that fear."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1000"
+    },
+    {
+      "id": "w8_tue_audit",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 8, Night 1: Quantitative Auditing – Defining Your Baseline Metrics",
+      "description": "Tonight marks the end of the Beginner Phase. We prepare to aggregate your past 4 weeks of raw demo data to find your performance baseline.",
+      "fields": [
+        {
+          "name": "📈 The Core Performance Indicators",
+          "value": "To step up to the Intermediate phase, we need data for:\n• **Win Rate:** Total Winning Trades / Total Trades Executed.\n• **Profit Factor:** Gross Profits / Gross Losses.\n• **Average R:R Realized:** The actual reward ratios hit, not just planned ones."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1000"
+    },
+    {
+      "id": "w8_sat_audit_exec",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 8 Weekend Deep Dive: The Phase 1 Comprehensive Dataset Review",
+      "description": "Today is completely dedicated to numbers. We calculate your baseline and clear the workspace for Intermediate structural mastery.",
+      "fields": [
+        {
+          "name": "📐 Processing the Spreadsheet",
+          "value": "Compile all demo logs from weeks 5-8. If your win rate is low (e.g., 40%) but your Risk-to-Reward was strictly 1:2, your equity curve will still be upward. This is the mathematical proof that you do not need to be right all the time to make money."
+        },
+        {
+          "name": "🏁 Intermediate Gate Check",
+          "value": "If you executed your trades according to your rules without manual panic overrides, your beginner tracking foundations are rock-solid. Next week we level up the technical framework."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1543286386-2e659306cd6c?q=80&w=1000"
+    },
+    {
+      "id": "w9_tue_mtf",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 9, Night 1: Intermediate Core – Multi-Timeframe Confluence",
+      "description": "Welcome to the Intermediate Phase. Tonight we stop looking at a single timeframe and learn how the 1-Hour, 4-Hour, and Daily charts interlock.",
+      "fields": [
+        {
+          "name": "🔍 The Top-Down Hierarchy",
+          "value": "• **Daily (1D):** Establishes the macroeconomic narrative and major institutional direction.\n• **4-Hour (4H):** Establishes the structural map (key support/resistance zones).\n• **1-Hour (1H):** Establishes execution tactical timing (patterns and entries)."
+        },
+        {
+          "name": "⚠️ The Timeframe Alignment Rule",
+          "value": "Never buy on a 1-Hour chart if the price is hitting a major, un-broken Daily resistance zone. Alignment across timeframes drastically boosts trade probability."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    },
+    {
+      "id": "w9_sat_mtf_map",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 9 Weekend Deep Dive: Practical Top-Down Mapping Workshop",
+      "description": "Today we practice mapping structural flow seamlessly across the timeframe hierarchy on EUR/USD.",
+      "fields": [
+        {
+          "name": "🗺️ Step-by-Step Multi-Timeframe Sequence",
+          "value": "1. Go to Daily chart $\rightarrow$ mark major trends with a heavy line.\n2. Drop to 4H chart $\rightarrow$ draw structural rectangles inside the daily trend.\n3. Drop to 1H chart $\rightarrow$ identify how candles behave when hitting those 4H zones."
+        },
+        {
+          "name": "🖋️ Assignment",
+          "value": "Map this top-down setup across 3 distinct pairs. Label each line/zone on TradingView using text annotations indicating its timeframe origin (e.g., '4H Support')."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000"
+    },
+    {
+      "id": "w10_tue_sessions",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 10, Night 1: Market Timezones and Institutional Sessions",
+      "description": "Forex runs 24 hours a day, but volume behaves in highly specific timezone blocks. Tonight we study session characteristics.",
+      "fields": [
+        {
+          "name": "🌍 The Big Three Trading Windows",
+          "value": "• **Asian Session (Tokyo/Sydney):** Lower volume, highly ranging and consolidating behavior.\n• **London Session:** Massive liquidity injection. Often drives the structural trend of the day.\n• **New York Session:** Heavy corporate/institutional flow, especially during the 'London Close' overlap window."
+        },
+        {
+          "name": "🦊 The London Stop-Hunt Mechanics",
+          "value": "Institutions require liquidity to fill major buy orders. Frequently, at London open, price will aggressively drop below the Asian session low to trigger retail stop-losses (sell orders), gathering liquidity to reverse the market upward for the rest of the day."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1508847154043-be12a62861c1?q=80&w=1000"
+    },
+    {
+      "id": "w10_sat_session_zones",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 10 Weekend Deep Dive: Mapping Session Highs and Lows",
+      "description": "Today we build session indicators manually into our charts to observe how price treats historical intraday liquidity points.",
+      "fields": [
+        {
+          "name": "🛠️ Session Tracking on TradingView",
+          "value": "Look for a free session tracking script or draw vertical grid lines marking Tokyo close / London open. Highlight the absolute highest peak and lowest floor of the Asian range."
+        },
+        {
+          "name": "📈 Retrospective Analysis",
+          "value": "Examine how frequently the London or New York sessions sweep past those Asian boundaries before reversing hard. Document this pattern across the past 10 trading days."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1000"
+    },
+    {
+      "id": "w11_tue_fibonacci",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 11, Night 1: Mathematical Deep Dives – Fibonacci Retracements",
+      "description": "Markets move in waves: an impulsive push followed by a corrective pull. Tonight we learn to measure the mathematical depth of those pullbacks.",
+      "fields": [
+        {
+          "name": "📐 The Golden Ratios",
+          "value": "The Fibonacci tool helps identify potential support levels during a pullback. The most institutionally significant percentage metrics are **50.0%**, **61.8%**, and **78.6%**."
+        },
+        {
+          "name": "🛡️ The Golden Zone",
+          "value": "The space between 61.8% and 78.6% is known as the **Optimal Trade Entry (OTE)** zone. Entering trades here allows for incredibly tight Stop-Loss placement, heavily maximizing your potential Risk-to-Reward ratio."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1000"
+    },
+    {
+      "id": "w11_sat_fib_exec",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 11 Weekend Deep Dive: Drawing Flawless Fibonacci Anchor Points",
+      "description": "Using Fibonacci improperly leads to complete analytical noise. Today we calibrate your drawing accuracy.",
+      "fields": [
+        {
+          "name": "🖋️ Anchor Point Selection Rules",
+          "value": "• For an uptrend: Drag the tool from the exact lowest point of the wick (Swing Low) to the absolute highest point of the wick (Swing High).\n• For a downtrend: Drag from Swing High down to Swing Low."
+        },
+        {
+          "name": "🛠️ TradingView Tool Settings",
+          "value": "Open your Fibonacci Retracement settings. Uncheck all irrelevant extension numbers. Only retain 0, 0.5, 0.618, 0.786, and 1. Clean up the color spectrum to grayscale for high visual layout clarity."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1000"
+    },
+    {
+      "id": "w12_tue_patterns",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 12, Night 1: Macro Geometry – Multi-Candle Structural Shifts",
+      "description": "Tonight we move past single candles to study multi-candle geometrical patterns that indicate structural transitions across major institutions.",
+      "fields": [
+        {
+          "name": "👑 Head & Shoulders (H&S)",
+          "value": "A structural pattern consisting of a Left Shoulder, a higher Head, and a lower Right Shoulder. When price breaks below the line connecting the lows (Neckline), it signals a macro transition from an uptrend to a aggressive downtrend."
+        },
+        {
+          "name": "⛰️ Double Tops & Bottoms",
+          "value": "A clear pattern showing price testing a key structural zone twice, failing to break through both times. This indicates that institutional buyers or sellers are strongly defending that specific pricing level."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=1000"
+    },
+    {
+      "id": "w12_sat_pattern_hunt",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 12 Weekend Deep Dive: Historical Geometrical Hunting",
+      "description": "Patterns fail constantly if executed blindly in the wrong environment. Today we audit macro chart geometry context.",
+      "fields": [
+        {
+          "name": "🔍 The Context Blueprint",
+          "value": "A Double Bottom floating in empty space is completely invalid. A Double Bottom hitting an explicit historical **Daily Support Zone** with high RSI divergence is an elite execution signal."
+        },
+        {
+          "name": "📊 Scan Practice",
+          "value": "Review historical 4H data for EUR/USD, GBP/USD, and AUD/USD. Locate and circle 5 clean Head & Shoulders structures. Note down how far the market expanded past the Neckline breakout points."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000"
+    },
+    {
+      "id": "w13_tue_snd",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 13, Night 1: Order Blocks – Transitioning to Supply & Demand",
+      "description": "Tonight we evolve past generic retail Support/Resistance lines and introduce institutional order accumulation blocks.",
+      "fields": [
+        {
+          "name": "📦 What is an Order Block (OB)?",
+          "value": "An **Order Block** represents the final candle before an aggressive, explosive market move that breaks structure. In a bullish expansion, it is the last down-close candle before a massive run up. This is where market makers left massive unfilled institutional orders."
+        },
+        {
+          "name": "🧪 The Imbalance (FVG)",
+          "value": "When a major institution aggressively enters the market, it creates a **Fair Value Gap (FVG)**—an asymmetrical 3-candle sequence where the wicks of candle 1 and candle 3 do not touch. Price will naturally seek to return down to mitigate this structural gap and fill orders."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1000"
+    },
+    {
+      "id": "w13_sat_ob_mapping",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 13 Weekend Deep Dive: Mapping Institutional Order Blocks",
+      "description": "Today we learn how to correctly highlight Order Blocks on your chart to map high-probability mitigation entry footprints.",
+      "fields": [
+        {
+          "name": "🖋️ Marking the OB Zone",
+          "value": "Locate an explosive structural breakout on the 4H chart. Go to the final opposing candle before that run. Use your **Rectangle tool** to extend a box spanning from the absolute highestwick point to the lowest wick point of that single candle out into the future."
+        },
+        {
+          "name": "📊 Observation Task",
+          "value": "Watch how price behaves when it eventually drops back down inside that box weeks later. It will frequently bounce instantly with high speed because remaining unfilled orders are triggered."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1578345218746-50a229b3d0f8?q=80&w=1000"
+    },
+    {
+      "id": "w14_tue_dxy",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 14, Night 1: Correlated Assets – The US Dollar Index (DXY) Engine",
+      "description": "The US Dollar sits at the epicenter of global financial assets. Tonight we learn to analyze the DXY to decode major directional moves.",
+      "fields": [
+        {
+          "name": "⚙️ What is the DXY?",
+          "value": "The **DXY** tracks the performance of the US Dollar relative to an aggregate basket of foreign currencies, heavily weighted toward the Euro. It acts as an absolute gauge for international dollar strength."
+        },
+        {
+          "name": "🔄 Negative Correlation Mechanics",
+          "value": "Because the USD is the quote currency in **EUR/USD**, they share an inverse mathematical correlation. If the DXY is breaking past heavy resistance and surging higher, EUR/USD will frequently break down and collapse through support levels."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1502920917128-1aa2876c7015?q=80&w=1000"
+    },
+    {
+      "id": "w14_sat_correlation_check",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 14 Weekend Deep Dive: Dual-Chart Macro Analysis Workshop",
+      "description": "Today we build a split-layout correlation mapping model on TradingView to observe asset synchronization.",
+      "fields": [
+        {
+          "name": "🛠️ Dual-Screen Setup",
+          "value": "Use TradingView's comparison tool to overlay the **DXY** index line directly on top of your **EUR/USD** candlestick chart, or open them side by side. Notice the precise inverse alignment at major turning points."
+        },
+        {
+          "name": "📊 Portfolio Rule Formulation",
+          "value": "Never execute a long buy setup on EUR/USD if your standalone analysis on the DXY shows the dollar is sitting directly on a strong daily support zone."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1000"
+    },
+    {
+      "id": "w15_tue_dynamic_risk",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 15, Night 1: Dynamic Capital Allocations – Parameter Adjustments",
+      "description": "Static lot sizing limits capital growth. Tonight we learn how to calculate dynamic positions based on variable structural stop-loss pip lengths.",
+      "fields": [
+        {
+          "name": "🧮 The Position Sizing Formula",
+          "value": "To calculate your lot sizing dynamically, use the mathematical equation:\n$$\\text{Lot Size} = \\frac{\\text{Account Balance} \\times \\text{Risk \\%}}{\\text{Stop-Loss Pips} \\times \\text{Pip Value per Lot}}$$\nThis ensures that whether your stop loss is 10 pips or 50 pips, your financial loss remains exactly capped at your chosen 1%."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1000"
+    },
+    {
+      "id": "w15_sat_calculator_build",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 15 Weekend Deep Dive: Building Your Position Sizing Engine",
+      "description": "Today you will integrate position sizing rules directly into your charting terminal execution workflows.",
+      "fields": [
+        {
+          "name": "🛠️ Automating the Equation",
+          "value": "Configure the position sizing metrics on TradingView's manual tool properties. Input your demo account equity balance and your standard risk percentage parameter. Let the UI automatically generate your target lot requirements before placing orders."
+        },
+        {
+          "name": "📊 Operational Stress Test",
+          "value": "Execute 5 demo trades with highly wildly distinct stop distances (e.g., a 12-pip GBPUSD scalp vs a 45-pip swing setup). Verify your journal log proves that the realized financial downside remained identical across both setups."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000"
+    },
+    {
+      "id": "w16_tue_midpoint",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 16, Night 1: Intermediate Phase Close – Review and Consolidation",
+      "description": "Tonight concludes the Intermediate phase. We outline your quantitative assessment requirements before advancing to advanced rule standardization.",
+      "fields": [
+        {
+          "name": "📋 The Intermediate Metric Thresholds",
+          "value": "To qualify for the advanced system building next week, your intermediate database must demonstrate:\n1. Execution consistency over the past 8 weeks without a single missed journal log.\n2. Successful structural zone mapping that correctly identified trends ahead of high-impact moves."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=1000"
+    },
+    {
+      "id": "w16_sat_midpoint_audit",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 16 Weekend Deep Dive: The Comprehensive Core Audit Review",
+      "description": "Today is completely focused on data aggregation. We clean up historical workspace layers and analyze our metric footprint.",
+      "fields": [
+        {
+          "name": "📊 Data Extraction Run",
+          "value": "Download your full tracking sheets from Week 9 through 16. Calculate your average drawdown duration and map your win rate trends. If you are net profitable in simulation, your mechanical edge is verified."
+        },
+        {
+          "name": "🏁 Advanced Phase Clearance",
+          "value": "Clear out clutter from your TradingView profiles. Next week we enter the Advanced Phase, where we strip out all human intuition and build rigid mathematical execution protocols."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1542744094-3a31f103e35f?q=80&w=1000"
+    },
+    {
+      "id": "w17_tue_advanced_rules",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 17, Night 1: Advanced Core – Constructing Mechanical Rulesets",
+      "description": "Welcome to the Advanced Phase. Tonight we eliminate all subjectivity from our setups. A professional system leaves zero room for intuition.",
+      "fields": [
+        {
+          "name": "🤖 Binary Execution Checklists",
+          "value": "Your entry criteria must be completely binary (True/False). For example:\n1. Is price interacting with a 4H Order Block? (Yes/No)\n2. Is the 1H trend aligned with the 4H bias? (Yes/No)\n3. Has a rejection candlestick pattern formed? (Yes/No)\nIf any condition returns False, no trade can exist."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1000"
+    },
+    {
+      "id": "w17_sat_rules_write",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 17 Weekend Deep Dive: Drafting Your Strategy Blueprint Document",
+      "description": "Today you write your absolute personal trading constitution. This text defines your complete system boundaries.",
+      "fields": [
+        {
+          "name": "🖋️ Documenting the Parameters",
+          "value": "Draft a formal markdown document outlining:\n• Exact assets traded.\n• Allowed trading windows (e.g., strictly 08:00 to 12:00 EST).\n• Exact structural triggers required.\n• Invalidation rules (when to manually cut an invalid setup)."
+        },
+        {
+          "name": "🛠️ Execution Test",
+          "value": "Apply this newborn system document to the live charts. Verify whether you can identify an asset configuration where every single rule flips to an absolute binary True state."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=1000"
+    },
+    {
+      "id": "w18_tue_backtesting",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 18, Night 1: Manual Backtesting – Historical Data Extraction",
+      "description": "Tonight we learn to travel back in time across historical market data to gather empirical proof that your strategy ruleset works.",
+      "fields": [
+        {
+          "name": "⏳ Using the Bar Replay Engine",
+          "value": "TradingView features a **Bar Replay** tool that cuts away future data and lets you advance candles manually one-by-one. This eliminates hindsight bias because you can't see what happens next when deciding to execute your ruleset."
+        },
+        {
+          "name": "📊 Sample Size Targets",
+          "value": "To verify a strategy has a true statistical edge, you need a minimum historical sample size of **100 consecutive setups**. This provides enough data to accurately map your system's performance limits."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1000"
+    },
+    {
+      "id": "w18_sat_backtest_marathon",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 18 Weekend Deep Dive: The 100-Trade Historical Backtest Simulation",
+      "description": "Today is a heavy data production session. We scroll back 18 to 24 months on EUR/USD and process 100 mechanical trade logs.",
+      "fields": [
+        {
+          "name": "📉 Running the Replay Engine",
+          "value": "Scroll your charts back to a past historical starting point. Click play candle-by-candle. Every single time your binary week 17 checklist parameters return True, log that trade outcome as if it happened live."
+        },
+        {
+          "name": "📝 Compiling the Dataset",
+          "value": "Maintain strict accuracy. Log every loss, stop-out, and spread friction penalty. By the end of this weekend session, you will possess a proprietary quantitative trading dataset."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    },
+    {
+      "id": "w19_tue_expectancy",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 19, Night 1: Quantitative Analytics – Calculating System Expectancy",
+      "description": "Tonight we process your 100-trade backtest dataset through professional portfolio performance equations.",
+      "fields": [
+        {
+          "name": "🧮 The System Expectancy Formula",
+          "value": "Calculate your true structural edge using the standard formulation:\n$$\\text{Expectancy} = (\\text{Win \\%} \\times \\text{Average Win Size}) - (\\text{Loss \\%} \\times \\text{Average Loss Size})$$\nAn expectancy value of `0.25` means that on average, every single time your system takes a trade, it yields 25% of your unit risk parameter over the long run."
+        },
+        {
+          "name": "📉 Max Drawdown Mapping",
+          "value": "Analyze your longest losing streak from the backtest data. If your data reveals a string of 7 losses in a row, your psychology must be prepared to handle 7 consecutive losses in real-time execution without abandoning the strategy rules."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1554224155-6b093ca596db?q=80&w=1000"
+    },
+    {
+      "id": "w19_sat_expectancy_audit",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 19 Weekend Deep Dive: System Mathematical Optimization",
+      "description": "Today we dissect our backtest results to optimize structural variables for maximizing capital efficiency.",
+      "fields": [
+        {
+          "name": "📈 Variables Breakdown Analysis",
+          "value": "Sort your data columns by trade parameters. Check if your system performs significantly better during the London session vs the New York session. If the data shows New York setups drag down your overall expectancy, update your ruleset to filter out New York executions."
+        },
+        {
+          "name": "🔒 Finalizing the Edge",
+          "value": "Lock in your optimized strategy documentation parameters. Your system formula is now mathematically backed by historical empirical research data."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000"
+    },
+    {
+      "id": "w20_tue_correlation_risk",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 20, Night 1: Advanced Portfolio Risk – Asset Correlation",
+      "description": "Tonight we look at macro dependencies across multiple pairs to ensure you don't accidentally compound your portfolio risk boundaries.",
+      "fields": [
+        {
+          "name": "⛓️ Systemic Correlations",
+          "value": "Pairs share deep underlying systemic relationships. For instance, **EUR/USD** and **GBP/USD** both move inversely to the US Dollar. Buying both simultaneously does not diversify your portfolio; it doubles your structural exposure to a sudden USD movement."
+        },
+        {
+          "name": "🚫 The Double Exposure Guardrail",
+          "value": "Establish a hard rule: Never hold two correlated risk setups simultaneously. If a buy trigger prints on EUR/USD and a buy trigger prints on GBP/USD, select the single setup demonstrating cleaner structure and skip the other."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1000"
+    },
+    {
+      "id": "w20_sat_correlation_matrix",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 20 Weekend Deep Dive: Building an Active Correlation Matrix",
+      "description": "Today we review live market pairings to draw out safety perimeters across our active watchlists.",
+      "fields": [
+        {
+          "name": "📊 Cross-Asset Alignment Practice",
+          "value": "Analyze historical charts side-by-side during extreme economic data events. Document how closely minor cross-pairs track the direction of their respective majors. Use this data to map out an explicit asset exclusion matrix in your playbook."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1000"
+    },
+    {
+      "id": "w21_tue_automation_logic",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 21, Night 1: Algorithmic Logic – Formulation of Automation Frameworks",
+      "description": "Tonight we bridge manual execution to engineering logic. We map our binary ruleset into explicit programmatic state tracking configurations.",
+      "fields": [
+        {
+          "name": "🤖 Translating Technical Strategy to Code",
+          "value": "Because your strategy is entirely binary, it can be mapped directly into code. For example, your entry rules translate directly into boolean operations:\n`if price_in_zone and session_is_active and rejection_pattern_detected: trigger_order()`"
+        },
+        {
+          "name": "📐 Mapping Pseudo-Code Infrastructure",
+          "value": "Break down your trade management flow into sequential logical steps: order entry thresholds, trailing stop updates, and take-profit target limits. This acts as the complete blueprint if you choose to build an automated trading bot in the future."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000"
+    },
+    {
+      "id": "w21_sat_pseudo_build",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 21 Weekend Deep Dive: Constructing Your System State Machine Architecture",
+      "description": "Today you draft a complete structural pseudo-code configuration map of your trading system.",
+      "fields": [
+        {
+          "name": "🛠️ State Logic Documentation",
+          "value": "Map out every possible state your system can inhabit: `IDLE`, `SCANNING`, `ENTRY_TRIGGERED`, `MANAGING_POSITION`, and `POST_TRADE_LOGGING`. Define the exact programmatic data inputs required to trigger a state transition."
+        },
+        {
+          "name": "📊 Manual Parsing Audit",
+          "value": "Review historical data while reading your logic line-by-line. Verify that your written pseudo-code would execute entry, management, and exit steps exactly like you did manually."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000"
+    },
+    {
+      "id": "w22_tue_live_prep",
+      "delivery_day": "Tuesday",
+      "title": "🌙 Week 22, Night 1: The Final Threshold – Live Sandbox Deployment Frameworks",
+      "description": "Tonight marks the final instructional segment of your 22-week course. We prepare the operational guidelines for moving capital from simulation to reality.",
+      "fields": [
+        {
+          "name": "🌱 The Micro-Capital Strategy",
+          "value": "When transitioning to live capital, the biggest hurdle is psychology, not strategy. Start with small micro-capital (money you can fully afford to lose). Keep your risk tiny so you can adjust to the psychological reality of real financial wins and losses."
+        },
+        {
+          "name": "🛡️ Maintaining Your Tracking Infrastructure",
+          "value": "The transition to live capital changes nothing about your tracking tools. Your journal updates, GitHub schedule delivery automations, and weekly analytics reviews remain identical."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=1000"
+    },
+    {
+      "id": "w22_sat_graduation",
+      "delivery_day": "Saturday",
+      "title": "☀️ Week 22 Weekend Deep Dive: Complete System Launch Execution",
+      "description": "Your comprehensive educational roadmap is fully implemented. Today you conduct final system updates and activate your sandbox protocols.",
+      "fields": [
+        {
+          "name": "🚀 Activating the Pipeline",
+          "value": "Perform a final check on your automated execution notebooks and TradingView configuration profiles. Keep your cron deployment workflows running on GitHub Actions to serve as a permanent structural reference as you navigate live conditions."
+        },
+        {
+          "name": "🏆 Graduation Objective",
+          "value": "You have advanced from basic concepts to an empirically-backed, structured mechanical framework. Rely on your data, stick to your risk management rules, and let the expectancy play out over the long run."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1000"
     }
   ]
 }
