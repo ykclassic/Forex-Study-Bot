@@ -1,7 +1,7 @@
 import os
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 import requests
 
 def load_curriculum():
@@ -27,14 +27,14 @@ def send_to_discord(webhook_url, module):
                 "footer": {
                     "text": f"Forex Engine | Auto-delivered on {module['delivery_day']}"
                 },
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             }
         ]
     }
 
     try:
         response = requests.post(webhook_url, json=payload, timeout=10)
-        if response.status_code == 240 or response.status_code == 204:
+        if response.status_code in [200, 204]:
             print(f"Successfully delivered module: {module['id']}")
         else:
             print(f"Failed to deliver payload. HTTP Status: {response.status_code}, Response: {response.text}")
@@ -48,8 +48,8 @@ def main():
         print("Error: DISCORD_WEBHOOK_URL environment variable is missing.")
         sys.exit(1)
 
-    # Determine current day of the week (e.g., 'Tuesday', 'Saturday')
-    current_day = datetime.utcnow().strftime("%A")
+    # Determine current day of the week using modern timezone-aware UTC datetime
+    current_day = datetime.now(timezone.utc).strftime("%A")
     print(f"Initiating automation check for day: {current_day}")
 
     curriculum = load_curriculum()
