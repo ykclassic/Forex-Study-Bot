@@ -1,0 +1,140 @@
+{
+  "modules": [
+    {
+      "id": "ind_w1_thu",
+      "delivery_day": "Thursday",
+      "title": "🌙 Indicator Lab 1: Volatility & Mean Reversion (Bollinger Bands)",
+      "description": "Welcome to the Strategy Track. Tonight we focus on mathematically quantifying volatility to find mean-reversion setups.",
+      "fields": [
+        {
+          "name": "📉 The Mathematics of the Bands",
+          "value": "Bollinger Bands plot two standard deviations away from a Simple Moving Average (SMA). When price pierces the upper or lower band, it statistically represents a 95% deviation from the mean, signaling an extreme overextension."
+        },
+        {
+          "name": "⚡ The Volatility Squeeze",
+          "value": "When the bands contract tightly together, institutional volatility has dried up. This 'squeeze' is the ultimate precursor to an explosive, directional breakout. You do not trade the squeeze; you wait for the violent expansion that follows."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1000"
+    },
+    {
+      "id": "ind_w1_sun",
+      "delivery_day": "Sunday",
+      "title": "☀️ Strategy Execution 1: The Band Squeeze Breakout",
+      "description": "Today we build a rigid execution protocol around the volatility squeeze.",
+      "fields": [
+        {
+          "name": "🤖 Mechanical Ruleset",
+          "value": "1. Identify a 4H Bollinger Band Squeeze.\n2. Wait for a 1H candle to close aggressively outside the bands.\n3. Enter on the retest of the broken SMA baseline."
+        },
+        {
+          "name": "💾 Data Logging",
+          "value": "Track the width of the bands prior to the breakout and log this numerical state output directly into your `signals.db` database. This allows you to quantitatively query how tight a squeeze needs to be to guarantee a profitable expansion."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1000"
+    },
+    {
+      "id": "ind_w2_thu",
+      "delivery_day": "Thursday",
+      "title": "🌙 Indicator Lab 2: Institutional Flow (VWAP)",
+      "description": "Retail uses standard moving averages. Institutions use the Volume Weighted Average Price.",
+      "fields": [
+        {
+          "name": "⚖️ Price Meets Volume",
+          "value": "VWAP acts as the true baseline of the market because it weighs price action by trading volume. If a massive institution is accumulating a position, they execute strictly at or below the VWAP to avoid paying a premium."
+        },
+        {
+          "name": "🛑 The Institutional Boundary",
+          "value": "In an uptrending market, VWAP acts as an impenetrable dynamic support. If price breaks and sustains below the VWAP on high volume, the institutional bias has officially flipped."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    },
+    {
+      "id": "ind_w2_sun",
+      "delivery_day": "Sunday",
+      "title": "☀️ Strategy Execution 2: VWAP Pullback Confluence",
+      "description": "Today we combine volume weighting with structural analysis for high-probability entries.",
+      "fields": [
+        {
+          "name": "🤖 Mechanical Ruleset",
+          "value": "1. Verify the Daily trend is bullish.\n2. Wait for a short-term pullback on the 1H chart.\n3. Execute a Long position strictly when price touches the VWAP line simultaneously with a fixed horizontal support zone."
+        },
+        {
+          "name": "📊 Testing Protocol",
+          "value": "Backtest this setup across 20 historical occurrences on GBP/USD. Ensure your data logs reflect whether volume spiked during the VWAP rejection."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1642390061910-0f7128bef160?q=80&w=1000"
+    },
+    {
+      "id": "ind_w3_thu",
+      "delivery_day": "Thursday",
+      "title": "🌙 Indicator Lab 3: Smart Money Concepts (SMC) & Liquidity",
+      "description": "Indicators lag. Liquidity leads. Tonight we map out where retail stop-losses are clustered.",
+      "fields": [
+        {
+          "name": "🧲 Liquidity Pools",
+          "value": "Areas above Double Tops and below Double Bottoms are massive liquidity pools (clusters of retail stop-losses). Smart Money explicitly drives price into these zones to trigger those stops, absorbing the liquidity required to reverse the market."
+        },
+        {
+          "name": "🧹 The Sweep",
+          "value": "A 'Sweep' occurs when price violently spikes through a major support/resistance line, triggers stops, and immediately snaps back in the opposite direction. This is a manufactured false breakout."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1000"
+    },
+    {
+      "id": "ind_w3_sun",
+      "delivery_day": "Sunday",
+      "title": "☀️ Strategy Execution 3: The Liquidity Sweep Reversal",
+      "description": "Today we build a mechanical strategy designed to trade alongside the market makers, not against them.",
+      "fields": [
+        {
+          "name": "🤖 Mechanical Ruleset",
+          "value": "1. Identify an obvious Double Top (Retail Resistance).\n2. Wait for price to break above the Double Top and sweep liquidity.\n3. Enter a Short position immediately upon a 15-minute candle closing back *below* the original resistance line."
+        },
+        {
+          "name": "🛡️ Risk Parameters",
+          "value": "Place the Stop-Loss exactly 2 pips above the highest wick of the fakeout sweep. Target the opposing liquidity pool (the nearest Swing Low) for Take-Profit."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000"
+    },
+    {
+      "id": "ind_w4_thu",
+      "delivery_day": "Thursday",
+      "title": "🌙 Indicator Lab 4: Algorithmic Multi-Indicator Confluence",
+      "description": "Tonight we define how to layer disparate data streams into a single, cohesive trade signal without muddying the chart.",
+      "fields": [
+        {
+          "name": "⚙️ Non-Correlated Stacking",
+          "value": "Never stack indicators that measure the same thing (e.g., RSI and MACD are both momentum oscillators; using both is redundant). Instead, stack a trend filter (EMA), a volatility gauge (Bollinger), and a volume metric (VWAP)."
+        },
+        {
+          "name": "📐 The Mathematical Formula",
+          "value": "Consider the VWAP calculation you are visually trading against: $$VWAP = \\frac{\\sum (Price \\times Volume)}{\\sum Volume}$$ By tracking the delta between current price and VWAP, you can programmatically define 'overextended' setups."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?q=80&w=1000"
+    },
+    {
+      "id": "ind_w4_sun",
+      "delivery_day": "Sunday",
+      "title": "☀️ Strategy Execution 4: The Apex Confluence Model",
+      "description": "The final execution module. We combine momentum, volume, and structure into a fully mechanical pipeline.",
+      "fields": [
+        {
+          "name": "🤖 The Ultimate Setup Checklist",
+          "value": "1. Price is pulling back into a 4H Fair Value Gap (Structure).\n2. Price rejects off the daily VWAP (Volume).\n3. RSI prints clear bullish divergence on the 1H timeframe (Momentum)."
+        },
+        {
+          "name": "💾 System Integration",
+          "value": "As you forward-test this model, ensure every generated signal is captured in `signals.db`. Tracking the Boolean states (True/False) of these three variables at the time of entry will allow you to quickly pivot this manual system into an automated script."
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000"
+    }
+  ]
+}
